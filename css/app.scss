@@ -1,6 +1,11 @@
 @import 'bootstrap.min.css';
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
 
+@font-face {
+    font-family: Futura Extra BoldBlack;
+    src: url(../font/Futura_XBlk_BT.ttf);
+}
+
 $white: #fff;
 $black: #1a1a1a;
 $green: #43b77b;
@@ -34,6 +39,7 @@ body {
 }
 
 h1 {
+  font-family: 'Futura Extra BoldBlack', sans-serif;
   font-size: 70px;
   text-transform: uppercase;
   color: #fff;
