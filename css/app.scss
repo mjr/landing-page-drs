@@ -71,7 +71,12 @@ nav {
   }
   
   li {
-    display: inline;    
+    display: inline;
+    margin: .5rem;
+  }
+
+  .menu {
+    text-align: right;      
   }
 }
 
