@@ -100,9 +100,12 @@ nav {
     -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: rgba(255,255,255,0);
   }
-
-  a:hover {
-    text-decoration: none;  
+    
+  a:link, a:active, a:visited, a:hover {
+    text-decoration: none;    
+  }
+  
+  a:hover { 
     background-color: rgba(158,158,158,.2);      
   }
 
